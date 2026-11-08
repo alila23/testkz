@@ -59,7 +59,6 @@ COPY --from=rust-builder \
 
 RUN chmod 755 /usr/local/bin/kariz /usr/local/bin/kariz-panel
 
-ENV KARIZ_MANAGER=/bin/true
 ENV RUST_LOG=info
 
 WORKDIR /
